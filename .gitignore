@@ -1,0 +1,24 @@
+# Gradle / build output
+.gradle/
+**/build/
+
+# Local SDK path (개인 환경 경로)
+local.properties
+
+# IDE files (Android Studio / IntelliJ)
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing files (민감 정보)
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Kotlin/Java crash logs
+hs_err_pid*
