@@ -15,7 +15,7 @@ jobs:
       
       - name: Build Marp slide
         
-        run: npx @marp-team/marp-cli@latest WEB_program_ppt.md -o index.html
+        run: npx @marp-team/marp-cli@latest presentation1.md -o index.html
         
       - name: Upload artifact
        
