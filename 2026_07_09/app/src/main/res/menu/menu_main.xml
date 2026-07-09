@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu1"
+        android:title="Menu 1"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu2"
+        android:title="Menu 2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu3"
+        android:title="Menu 3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+</menu>
